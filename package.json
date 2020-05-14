@@ -1,0 +1,35 @@
+{
+  "name": "@penalosa/epsilon",
+  "version": "1.0.0",
+  "description": "Simple, fast & fun communication over Websockets",
+  "main": "dist/epsilon.cjs.js",
+  "module": "dist/epsilon.esm.js",
+  "browser": "dist/epsilon.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penalosa/epsilon.git"
+  },
+  "keywords": [
+    "websockets",
+    "rpc"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.29.0",
+    "ws": "^7.3.0"
+  },
+  "author": "Samuel Macleod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/penalosa/epsilon/issues"
+  },
+  "homepage": "https://github.com/penalosa/epsilon#readme"
+}
