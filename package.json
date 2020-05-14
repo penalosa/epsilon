@@ -1,6 +1,6 @@
 {
   "name": "@penalosa/epsilon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple, fast & fun communication over Websockets",
   "main": "dist/epsilon.cjs.js",
   "module": "dist/epsilon.esm.js",
