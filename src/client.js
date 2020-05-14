@@ -1,4 +1,4 @@
-export default (url, { debug = false }) => {
+export default (url, { debug = false } = { debug: false }) => {
   const setup = () => {
     let ws = new WebSocket(url)
     debug && console.log(`Constructing event listeners`)

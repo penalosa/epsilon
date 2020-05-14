@@ -16,7 +16,9 @@ API is
   -> return { payload }, or { persist:new_persisted_data, payload:payload }
 */
 import WebSocket from 'ws'
-export default ({ port = 8090, debug = false } = {}) => {
+export default (
+  { port = 8090, debug = false } = { port: 8090, debug: false }
+) => {
   const persistData = Symbol('persist')
   const identifier = Symbol('identifier')
   let id = 1
