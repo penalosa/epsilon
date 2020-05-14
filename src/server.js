@@ -1,20 +1,3 @@
-/* Data format is {
-    method: 'ping',
-    payload: {
-        ...arbitrary
-    },
-    Error format is {
-      error:true,
-      message: "...",
-      ...echo input
-    }
-}
-
-API is 
-.publish (match_function(persisted_data), payload)
-.* = (persisted_data, payload)
-  -> return { payload }, or { persist:new_persisted_data, payload:payload }
-*/
 import WebSocket from 'ws'
 export default (
   { port = 8090, debug = false } = { port: 8090, debug: false }
