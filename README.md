@@ -2,6 +2,8 @@
 
 > Fast, fun & simple communication over websockets
 
+Makes communication over websockets as easy as calling an `async` local function, using Proxies to "proxy" function calls to a node server.
+
 Install with `npm install @penalosa/epsilon` or `yarn add @penalosa/epsilon`. It works, but is in a very early stage of development, so expect bugs.
 
 ## QuickStart
